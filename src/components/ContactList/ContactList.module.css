@@ -1,0 +1,37 @@
+ul {
+  width: 500px;
+  padding: 0;
+}
+
+.btn {
+  font-size: 18px;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  width: 100px;
+  margin-left: 12px;
+
+  background: rgb(165, 138, 138);
+  border: rgb(146, 129, 129);
+  cursor: pointer;
+  border-radius: 3px;
+  box-shadow: 3px 2px 2px rgb(71, 67, 67);
+}
+
+.btn:hover,
+.btn:focus {
+  background: rgb(148, 117, 117);
+}
+
+.item {
+  font-size: 20px;
+  color: antiquewhite;
+  display: flex;
+
+  justify-content: space-around;
+}
+span {
+  margin-left: 10px;
+}
+.item:not(:last-child) {
+  margin-bottom: 9px;
+}
